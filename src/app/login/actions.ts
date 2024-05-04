@@ -74,7 +74,7 @@ export async function google() {
         access_type: "offline",
         prompt: "consent"
       },
-      redirectTo: `http://localhost:3000/auth/callback`
+      redirectTo: `https://project-air-nine.vercel.app/auth/callback`
     }
   });
 
