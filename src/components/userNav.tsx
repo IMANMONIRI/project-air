@@ -60,9 +60,8 @@ export default async function UserNav() {
           </>
         ) : (
           <>
-            <DropdownMenuItem>Register</DropdownMenuItem>
             <DropdownMenuItem>
-              <Link href="/login">Login</Link>
+              <Link href="/login">Login/Register</Link>
             </DropdownMenuItem>
           </>
         )}
