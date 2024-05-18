@@ -54,55 +54,6 @@ export default function SelectedCategory() {
       title: "Amazingview",
       icon: FaMoon
     },
-    {
-      id: 6,
-      name: "design",
-      description: "This Property is close to the Beach",
-      title: "Design",
-      icon: FaMoon
-    },
-    {
-      id: 7,
-      name: "pool",
-      description: "This Property is close to the Beach",
-      title: "Pool",
-      icon: FaMoon
-    },
-    {
-      id: 8,
-      name: "tinyhome",
-      description: "This Property is close to the Beach",
-      title: "Tinyhome",
-      icon: FaMoon
-    },
-    {
-      id: 9,
-      name: "historichome",
-      description: "This Property is close to the Beach",
-      title: "Historichome",
-      icon: FaMoon
-    },
-    {
-      id: 10,
-      name: "countryside",
-      description: "This Property is close to the Beach",
-      title: "Countryside",
-      icon: FaMoon
-    },
-    {
-      id: 11,
-      name: "wow!",
-      description: "This Property is close to the Beach",
-      title: "WOW!",
-      icon: FaMoon
-    },
-    {
-      id: 12,
-      name: "surfing",
-      description: "This Property is close to the Beach",
-      title: "Surfing",
-      icon: FaMoon
-    }
   ];
 
   return (
