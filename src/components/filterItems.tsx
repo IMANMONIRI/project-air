@@ -68,59 +68,10 @@ export default function FilterItems() {
       title: "Amazingview",
       icon: FaMoon
     },
-    {
-      id: 6,
-      name: "design",
-      description: "This Property is close to the Beach",
-      title: "Design",
-      icon: FaMoon
-    },
-    {
-      id: 7,
-      name: "pool",
-      description: "This Property is close to the Beach",
-      title: "Pool",
-      icon: FaMoon
-    },
-    {
-      id: 8,
-      name: "tinyhome",
-      description: "This Property is close to the Beach",
-      title: "Tinyhome",
-      icon: FaMoon
-    },
-    {
-      id: 9,
-      name: "historichome",
-      description: "This Property is close to the Beach",
-      title: "Historichome",
-      icon: FaMoon
-    },
-    {
-      id: 10,
-      name: "countryside",
-      description: "This Property is close to the Beach",
-      title: "Countryside",
-      icon: FaMoon
-    },
-    {
-      id: 11,
-      name: "wow!",
-      description: "This Property is close to the Beach",
-      title: "WOW!",
-      icon: FaMoon
-    },
-    {
-      id: 12,
-      name: "surfing",
-      description: "This Property is close to the Beach",
-      title: "Surfing",
-      icon: FaMoon
-    }
   ];
 
   return (
-    <div className="bg-cyan-950/80 rounded-full flex gap-x-5 lg:gap-x-10 my-5 py-3 lg:py-5 px-5 lg:px-10 w-full overflow-x-scroll no-scrollbar">
+    <div className="flex justify-center items-center gap-x-5 lg:gap-x-10 my-5 py-3 lg:py-5 px-5 lg:px-10 w-full overflow-x-scroll no-scrollbar">
       {items.map(item => (
         <Link
           key={item.id}
