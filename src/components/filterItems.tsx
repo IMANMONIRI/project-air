@@ -80,7 +80,7 @@ export default function FilterItems() {
             search === item.name ? "text-cyan-500" : "text-gray-200" 
           }`}
         >
-          <item.icon className={`w-6 h-6 transition-all duration-300 ${search === item.name ? "scale-125 text-cyan-500" : "text-gray-200"}`} />
+          <item.icon className={`w-6 h-6 transition-all duration-300 ${search === item.name ? "scale-125 text-cyan-500" : "dark:text-gray-200 text-gray-900"}`} />
           <p className="text-xs font-medium">{item.title}</p>
         </Link>
       ))}
