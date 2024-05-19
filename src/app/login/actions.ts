@@ -74,7 +74,7 @@ export async function google() {
         access_type: "offline",
         prompt: "consent"
       },
-      redirectTo: `https://project-air-nine.vercel.app/auth/callback`
+      redirectTo: `https://iman-project-air.vercel.app/auth/callback`
     }
   });
 
